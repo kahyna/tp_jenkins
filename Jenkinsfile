@@ -17,7 +17,7 @@ pipeline {
                 }
                 stage('Test') {
                         steps {
-                                sh './src/_test_'
+                                sh 'npm test'
                         }
                 }
         }
